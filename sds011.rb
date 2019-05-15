@@ -1,5 +1,6 @@
 require_relative 'reader'
 
+# change this according to what device your sensor shows up as on your system...
 DEVICE = '/dev/cu.usbserial-1420'
 
 reader = Reader.new(DEVICE)
